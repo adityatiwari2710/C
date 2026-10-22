@@ -1,0 +1,10 @@
+/* 
+Instructions
+Control Instructions
+Used to determine flow of program
+a. Sequence Control
+b. Decision Control
+c. Loop Control
+d. Case Control
+
+*/

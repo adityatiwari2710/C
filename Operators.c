@@ -18,6 +18,16 @@ Operators Precedence (priority) decreasing order
 
 */
 
+// Relational Operators
+/*
+
+==      ( a = b means we are assigning a to b but in == we are comparing a is equal to b or not)
+>,>=
+<,<=
+!=
+  relational operator gives us outuput in the form of 0,1 where 0 means false and 1 means true.
+
+*/
 
 
 
