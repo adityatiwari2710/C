@@ -2,7 +2,7 @@
  int main(){
 // Implicit conversion
 int a = 1.99999;
-printf("%d",a);
+printf("%d\n",a);
 // Explicit Conversion
 int b = (int)1.9999;
 printf("%d",b);
