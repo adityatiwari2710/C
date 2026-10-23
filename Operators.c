@@ -29,5 +29,36 @@ Operators Precedence (priority) decreasing order
 
 */
 
+// Logical Operators
+/*
+&& AND operator (it gives true only when both conditions are true)
+|| OR operator  (it gives true when anyone of the given conition is true)
+!  NOT operator
+*/
 
+//Operator Precedence
+/*
+Priority    Operator
+1           !
+2           *, /, %
+3           +, -
+4           <, <=, >, >=
+5           ==, !=
+6           &&
+7           ||
+8           =
+*/
 
+// Assignment operators
+/*
+
+Assignment Operators
+
+=
++=
+-=
+*=
+/=
+%=
+
+*/
