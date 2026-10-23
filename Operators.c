@@ -33,7 +33,7 @@ Operators Precedence (priority) decreasing order
 /*
 && AND operator (it gives true only when both conditions are true)
 || OR operator  (it gives true when anyone of the given conition is true)
-!  NOT operator
+!  NOT operator (it gives true if the operands value is false)
 */
 
 //Operator Precedence
