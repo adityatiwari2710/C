@@ -13,13 +13,18 @@ else if (Condition 2){
     int main() {
     int age;
     scanf("%d",&age);
-    if(age >18){
-        printf("Eligible to vote\n");
-        printf("Eligible to drive\n");
-        printf("Adult");
+    if(age > 0 && age < 12){
+       printf("child");
     }
-    else{
-    printf("Not Eligible");
+    else if(age>=12 && age <20){
+        printf("Teenager");
     }
-    printf("\nThank you");// this printf will print the value always because it is independent to if-else condition
+    else if(age>=20 && age<60){
+    printf("Adult");
+    }
+    else {
+        printf("Senior citizen");
+    }
     return 0;
+}
+ 
