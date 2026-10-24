@@ -30,10 +30,11 @@ else {
 /*
 
 if(condition 1){
-    statement}
+    statement;
     if(condition 2){
-    statement}
+    statement;}
     if(condition 3){
-    statement}
-   and so on....
+    statement;}
+}
+
 */
