@@ -7,8 +7,7 @@ else {
 //do something if FALSE
 }
 */
-
-   #include<stdio.h>
+    #include<stdio.h>
     int main() {
     int age;
     scanf("%d",&age);
