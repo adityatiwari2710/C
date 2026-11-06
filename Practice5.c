@@ -6,7 +6,7 @@
 //     int x = num;
 //     while(num!=0){
 //         rem = num%10;
-//         sum = sum + rem*10;
+//         sum = sum*10 + rem;
 //         num = num / 10;
 //     }
 //     if(x==sum)
