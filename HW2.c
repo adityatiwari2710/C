@@ -23,5 +23,20 @@
   // }
 
   // write a c program to count number of prime number in a range n
-   
+   int main(){
+    int count=0,total=0;
+    for(int num=1;num<=100;num++){
+      count = 0;
+      for(int i=1;i<=num;i++){
+        if(num%i==0){
+          count= count+1;
+        }
+      }
+      if(count==2){
+      printf("%d ",num);
+      total = total +1;}
+    }
+    printf("\ntotal prime number= %d",total);
+    return 0;
+   }
   
