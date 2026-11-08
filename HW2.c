@@ -24,5 +24,4 @@
 
   // write a c program to count number of prime number in a range n
    
-}
   
