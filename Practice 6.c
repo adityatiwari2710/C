@@ -47,3 +47,22 @@ int main(){
     return 0;
 
 }
+
+// check total number of prime numbers in the range 5 to 50
+int main(){
+    int i,count=0,totalnumbers = 0,n;
+    for(n=5;n<=50;n++){
+        count=0;
+        for( i=1;i<=n;i++){
+        if(n%i==0)
+        count = count +1;
+        }
+        if(count ==2){
+        printf("%d\n",n);
+        totalnumbers++;
+    }
+}
+    printf("%d",totalnumbers);
+    return 0;
+}
+
