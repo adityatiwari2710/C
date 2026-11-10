@@ -15,3 +15,7 @@ int main(){
     printhello();
     return 0;
 }
+//Properties of Functions
+// Execution always starts from main
+// A function gets called directly or indirectly from main
+// There can be multiple functions in a program  
