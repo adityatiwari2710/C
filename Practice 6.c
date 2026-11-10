@@ -1,5 +1,5 @@
 // print the sum of first n natural numbers,also print them in reverse .
-#include<stdio.h>
+ #include<stdio.h>
 int main(){
     int n,i,sum =0;
     scanf("%d",&n);
@@ -66,3 +66,19 @@ int main(){
     return 0;
 }
 
+// write a program to print the pattern
+//    *****
+//    *****
+//    *****
+//    *****
+
+int main(){
+    int i,j;
+    for(i=1;i<=4;i++){
+        for(j=1;j<=5;j++)
+        printf("*");
+        printf("\n");
+
+    }
+    return 0;
+}
