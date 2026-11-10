@@ -8,7 +8,7 @@
 
 // print all the number 0 to 10 but skip 6
 #include<stdio.h>
-// int main(){
+    int main(){
     for(int i=0;i<=10;i++){
     if(i==6)
     continue;
