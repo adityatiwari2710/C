@@ -34,7 +34,7 @@
       }
       if(count==2){
       printf("%d ",num);
-      total = total +1;}
+      total = total +1;
     }
     printf("\ntotal prime number= %d",total);
     return 0;
