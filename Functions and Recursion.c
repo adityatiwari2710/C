@@ -13,9 +13,18 @@ void printhello(){
 int main(){
     printhello();//function calling
     printhello();
+
     return 0;
 }
 //Properties of Functions
 // Execution always starts from main
 // A function gets called directly or indirectly from main
 // There can be multiple functions in a program  
+
+// Types of functions
+// 1. Library function
+// These are special funtions inbuilt in C
+// for eg ; scanf() and printf()
+
+// 2. User defined functions
+// declared and defined by programmer
