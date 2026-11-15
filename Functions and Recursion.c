@@ -28,3 +28,10 @@ int main(){
 
 // 2. User defined functions
 // declared and defined by programmer
+
+//      Argument                      v/s          Parameter
+//    values that are passed                    values in function declaration and
+//      in function call.                         definition.
+//     used to send value.                      used to receive value.
+//      actual parameter                        formal parameter
+                                       
