@@ -14,7 +14,7 @@ int main(){
     else
     printf("Not a Palindrome");
     return 0;
-
+  }
 
 // Write a program to check whether the number is prime or not
       int main(){
