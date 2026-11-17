@@ -33,3 +33,18 @@ int main(){
      }
      return 0;
 }
+
+// print numbers from 1 to n using recursion.
+#include<stdio.h>
+void print(int a){
+    if(a==0)
+    return ;
+    print(a-1);
+    printf("%d ",a);
+}
+int main (){
+    int n;
+    scanf("%d",&n);
+    print(n);
+    return 0;
+}
