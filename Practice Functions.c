@@ -16,3 +16,17 @@ int main(){
     return 0;
 
 }
+
+// area of a square
+int a(int x){
+    int area = x*x;
+    return area;
+}
+int main(){
+    int side,area;
+    scanf("%d",&side);
+    area = a(side);
+    printf("%d",area);
+    return 0;
+
+}
