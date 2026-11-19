@@ -9,3 +9,12 @@
 // Input & Output
 // scanf(%d", &marks[O]);
 // printf(%d, marks[O]);
+
+#include<stdio.h>
+int main(){
+    int n;
+    int marks[n];
+    scanf("%d",&n);
+    for(int i =0; i<n;i++){
+        scanf("%d",&marks[i]);
+    }
