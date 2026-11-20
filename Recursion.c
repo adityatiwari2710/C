@@ -14,7 +14,7 @@ Since we can write factorial of a number in terms of itself, we can program it u
 // write the factorial of a number using recursion 
 #include<stdio.h>
 int fact(int n){
-    if(n==0||n==1)
+    if(n==0||n==1)// base condition
         return 1;
     else{
     int factorial = fact(n-1)*n;
