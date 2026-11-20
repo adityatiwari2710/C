@@ -32,17 +32,31 @@
 // }
 
 //Write a program using function to find average of three numbers.
-int avg(int a, int b,int c){
-    int av=(a+b+c)/3;
-    return av;
+// int avg(int a, int b,int c){
+//     int av=(a+b+c)/3;
+//     return av;
+// }
+// int main(){
+//     int x,y,z;
+//     int average ;
+//     scanf("%d%d%d",&x,&y,&z);
+//     average = avg(x,y,z);
+//     printf("%d",average);
+//     return 0;
+
+
+// }
+
+//Write a function to convert Celsius temperature into Fahrenheit.
+void temp(int t){
+    float F =(9/5)*t+32;
+    printf("%.2f",F);
+
 }
 int main(){
-    int x,y,z;
-    int average ;
-    scanf("%d%d%d",&x,&y,&z);
-    average = avg(x,y,z);
-    printf("%d",average);
+    float t;
+    scanf("%f",&t);
+    temp(t);
     return 0;
-
 
 }
