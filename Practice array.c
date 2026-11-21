@@ -64,18 +64,36 @@
 
 // }
 
-// Write a C program to print the given number is even or not in the array user defined
+// // Write a C program to print the given number is even or not in the array user defined
+// int main(){
+    // int n,i,sum=0;
+    // scanf("%d",&n);
+    // int a[n];
+    // for(i=0;i<n;i++){
+    //     scanf("%d",&a[i]);
+    // }
+    // for(i=0;i<n;i++){ 
+    // sum=sum+a[i];
+
+    // }
+    // printf("%d",sum);
+    // return 0;
+// }
+
+// write a c program to print the even number in the given array
 int main(){
-    int n,i,sum=0;
+        int n,i,rem,num;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
     for(i=0;i<n;i++){ 
-    sum=sum+a[i];
-
+    rem = a[i]%2;
+    num = a[i];
+    if(rem ==0)
+    printf("%d ",num);
     }
-    printf("%d",sum);
+
     return 0;
 }
