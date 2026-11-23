@@ -123,3 +123,25 @@ int main(){
     return 0;
 
 }
+
+// write a c program to insert a given element whose position and value is given by the user
+int main(){
+    int a[7]={10,20,30,50,60};
+    int s=5;
+    int pos ,n,index,i;
+    printf("Enter the Position to insert ");
+    scanf("%d",&pos);
+    printf("Enter the number ");
+    scanf("%d",&n);
+    index = pos -1;
+    s = s+1;
+    for( i = s-1;i>=index;i--){
+        a[i]=a[i-1];
+    }
+    a[index]=n;
+    for(i = 0; i <s; i++){
+        printf("%d ",a[i]);
+
+    }
+    return 0;
+}
