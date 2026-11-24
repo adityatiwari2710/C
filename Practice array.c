@@ -145,3 +145,19 @@ int main(){
     }
     return 0;
 }
+
+// write a c program to identify the element position whose value is given by a user in the given array
+int main(){
+    int a[5]={10,20,30,40,50};
+    int val ,flag = -1,i;
+    printf("Enter the Number ");
+    scanf("%d",&val);
+    for(i=0;i<5;i++){
+        if(a[i]==val)
+        flag = i;
+
+    }
+        printf("%d",flag +1);
+    
+    return 0;
+}
